@@ -9518,11 +9518,21 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-brand {
   margin-left: 500px;
+  background-color: white;
 }
 
 .navbar-brand .nav-item {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.carrousel-slide {
+  position: relative;
+}
+
+.carrousel-slide .lancelot {
+  position: absolute;
+  left: 500px;
 }
 
 h1 {
@@ -9575,5 +9585,10 @@ h1 {
 
 .photo:hover {
   width: 500px;
+}
+
+.btn {
+  font-size: medium;
+  border-bottom-color: 3px black;
 }
 /*# sourceMappingURL=main.css.map */
