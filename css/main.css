@@ -9529,7 +9529,6 @@ a.text-dark:hover, a.text-dark:focus {
 .collapse .navbar-nav .nav-item:hover {
   -webkit-box-shadow: 8px 8px  8px 8px;
           box-shadow: 8px 8px  8px 8px;
-  background-color: rgb;
 }
 
 .carrousel-slide {
@@ -9694,7 +9693,61 @@ section .row .photo:hover {
   z-index: 1;
 }
 
-.contact .container {
-  background-color: red;
+.content-header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fcc500;
+  font-size: 45px;
+}
+
+.section-content {
+  text-align: center;
+}
+
+#contact {
+  font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: #3a6186;
+}
+
+.contact-section {
+  padding-top: 40px;
+}
+
+.contact-section .col-md-6 {
+  width: 50%;
+}
+
+.form-line {
+  border-right: 1px solid #B29999;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+label {
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+.form-control {
+  font-size: 1.3em;
+  color: #080808;
+}
+
+textarea.form-control {
+  height: 135px;
+}
+
+.submit {
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

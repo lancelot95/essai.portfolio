@@ -21,6 +21,7 @@ function all(){
     document.querySelector('.web').classList.add("d-block");
 }
 
-document.querySelector('.btn1').addEventListener('click',web )
-document.querySelector('.btn2').addEventListener('click', mobile)
-document.querySelector('.btn3').addEventListener('click', all)
+document.querySelector('.btnweb').addEventListener('click',
+web )
+document.querySelector('.btnmobile').addEventListener('click', mobile)
+document.querySelector('.btnall').addEventListener('click', all)
